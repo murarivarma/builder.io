@@ -4,11 +4,12 @@ body {
 }
 
 .btn-solid {
+  background-color: $primary-color;
   color: $light-font-color;
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em;
+  padding: 1em 3em;
 
   &:hover {
     color: $light-font-color;
@@ -20,10 +21,14 @@ body {
   border-radius: 2px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 1em;
-  border: 1px solid $dark-font-color;
+  padding: 1em 3em;
+  border: 2px solid $dark-font-color;
 
   &:hover {
     color: $dark-font-color;
   }
+}
+
+.lines-paragraph {
+  line-height: 180%;
 }
