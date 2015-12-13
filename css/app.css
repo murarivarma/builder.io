@@ -127,4 +127,17 @@ body {
     font-size: 8vw;
     transform: translate(-50%, -50%); }
 
+#customization {
+  text-align: center;
+  padding: 7em 0;
+  background-color: #F7F7F5; }
+  #customization i {
+    font-size: 3em;
+    color: #A18BCC;
+    padding-bottom: 0.7em; }
+  #customization h3 {
+    padding-bottom: 0.3em; }
+  #customization a {
+    color: #A18BCC; }
+
 /*# sourceMappingURL=app.css.map */
